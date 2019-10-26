@@ -34,7 +34,7 @@
 		DF531A992329711D006227F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1110;
 			};
 			buildConfigurationList = DF531A9C2329711D006227F5 /* Build configuration list for PBXProject "Lenovo-Thinkpad-T440" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -42,6 +42,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DF531A982329711D006227F5;
 			projectDirPath = "";

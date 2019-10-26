@@ -50,7 +50,7 @@ DefinitionBlock ("", "SSDT", 2, "T440", "_USB", 0)
                         "UsbConnector", 3,
                         "port", Buffer() { 2, 0, 0, 0 },
                     },
-                    "HS03", Package() // Dock USB3 Ports
+                    "HS03", Package() // USB3 Port (Dock)
                     {
                         "UsbConnector", 3,
                         "port", Buffer() { 3, 0, 0, 0 },
@@ -80,7 +80,7 @@ DefinitionBlock ("", "SSDT", 2, "T440", "_USB", 0)
                         "UsbConnector", 3,
                         "port", Buffer() { 11, 0, 0, 0 },
                     },
-                    "SS03", Package() // Dock USB3 Ports
+                    "SS03", Package() // USB3 Port (Dock)
                     {
                         "UsbConnector", 3,
                         "port", Buffer() { 12, 0, 0, 0 },
