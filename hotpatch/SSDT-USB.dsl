@@ -1,10 +1,8 @@
 // USB Port Injector for Lenovo ThinkPad T440 with Docking Station Support
 // FingerPrint Reader disabled as it is not supported on macOS
 
-#ifndef NO_DEFINITIONBLOCK
 DefinitionBlock ("", "SSDT", 2, "T440", "_USB", 0)
 {
-#endif
     Device(UIAC)
     {
         Name(_HID, "UIA00000")
@@ -89,11 +87,4 @@ DefinitionBlock ("", "SSDT", 2, "T440", "_USB", 0)
             },
         })
     }
-    External(_SB.PCI0.XHC, DeviceObj)
-    Method(_SB.PCI0.XHC.ESEL)
-    {
-        // do nothing
-    }
-#ifndef NO_DEFINITIONBLOCK
 }
-#endif
